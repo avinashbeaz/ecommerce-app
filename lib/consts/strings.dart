@@ -10,6 +10,7 @@ const name = "Name";
 const nameHint = "bea";
 const forgetPass = "Forget Password";
 const login = "Log in";
+const logout = "Log out";
 const signup = "Sign Up";
 const createNewAccount = "or, create new account";
 const loginWith = "Log in with";
@@ -49,3 +50,4 @@ const video = "Video",
     returnPolicy = "Return Policy",
     supportPolicy = "Support Policy",
     productsYouMayLike = "Products you may like";
+const wishlist = "My Wishlist", orders = "My Orders", messages = "Messages";
