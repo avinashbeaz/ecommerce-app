@@ -116,17 +116,13 @@ class _SignupScreenState extends State<SignupScreen> {
                             controller.isLoading(true);
                             if (isCheck != false) {
                               try {
-                                await controller.signupMethod(
-                                    context: context,
-                                    email: emailController.text,
-                                    password: passwordController.text);
-                                controller
-                                    .storeUserData(
+                                await controller
+                                    .signupMethod(
+                                        context: context,
                                         email: emailController.text,
-                                        password: passwordController.text,
-                                        name: nameController.text)
+                                        password: passwordController.text)
                                     .then((value) {
-                                  return controller.storeUserData(
+                                  controller.storeUserData(
                                       email: emailController.text,
                                       password: passwordController.text,
                                       name: nameController.text);
